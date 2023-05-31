@@ -3,8 +3,9 @@
       { "source": "/api/(.*)", "destination": "/api/proxy.js" }
     ],
     "functions": {
-      "maxDuration": 30
+      "default": {
+        "maxDuration": 60
+      }
     }
   }
-  
   
