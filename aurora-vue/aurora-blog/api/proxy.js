@@ -9,7 +9,7 @@ module.exports = (req, res) => {
     // target 替换为你跨域申请的服务器 如： http://baidu.com
     if (req.url.startsWith('/api')) {
         if (req.url != "/api") {
-            target = 'http://114.132.162.245'
+            target = 'http://114.132.162.245:8080'
         }
     }
     // 创立代理对象并转发申请
