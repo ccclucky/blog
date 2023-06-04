@@ -3,6 +3,10 @@
     {
       "source": "/api/:path*",
       "destination": "http://114.132.162.245:8080/:path*"
+    },
+    {
+      "source": "/cclucky-blog/:path*",
+      "destination": "http://114.132.162.245:9090/cclucky-blog/:path*"
     }
   ]
 }
