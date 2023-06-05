@@ -161,7 +161,7 @@
               <span class="search-label">{{ t('settings.searched-by') }}</span>
               <img
                 class="mr-1.5"
-                src="http://cclucky-blog.oss-cn-guangzhou.aliyuncs.com/articles/20b1756cf9e7c543edd6a272a7c39b62.jpg"
+                src="https://minio.cclucky.top/cclucky-blog/avatar/66fa0f9e7bd2c29dae746bf578795b45.png"
                 alt="ObsidianNext Logo"
                 height="20"
                 width="20" />

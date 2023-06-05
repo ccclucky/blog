@@ -63,7 +63,7 @@ export default defineComponent({
     const appStore = useAppStore()
     const { t } = useI18n()
     return {
-      default: 'http://cclucky-blog.oss-cn-guangzhou.aliyuncs.com/articles/20b1756cf9e7c543edd6a272a7c39b62.jpg',
+      default: 'https://minio.cclucky.top/cclucky-blog/avatar/66fa0f9e7bd2c29dae746bf578795b45.png',
       avatarClass: computed(() => {
         return {
           'ob-avatar': true,

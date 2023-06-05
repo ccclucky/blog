@@ -79,7 +79,7 @@ export default {
   bottom: 0;
   right: 0;
   left: 0;
-  background: url(http://cclucky-blog.oss-cn-guangzhou.aliyuncs.com/avatar/66fa0f9e7bd2c29dae746bf578795b45.png) center center / cover
+  background: url(https://minio.cclucky.top/cclucky-blog/avatar/66fa0f9e7bd2c29dae746bf578795b45.png) center center / cover
     no-repeat;
 }
 .login-card {
