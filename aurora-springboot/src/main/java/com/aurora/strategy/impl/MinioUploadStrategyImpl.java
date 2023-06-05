@@ -56,7 +56,7 @@ public class MinioUploadStrategyImpl extends AbstractUploadStrategyImpl {
 
     private MinioClient getMinioClient() {
         return MinioClient.builder()
-                .endpoint(minioProperties.getEndpoint())
+                .endpoint(minioProperties.getEndpoint(), 443, true)
                 .credentials(minioProperties.getAccessKey(), minioProperties.getSecretKey())
                 .build();
     }

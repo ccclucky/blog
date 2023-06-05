@@ -6,7 +6,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://114.132.162.245:3306/aurora?serverTimezone=Asia/Shanghai&allowMultiQueries=true
-#    url: jdbc:mysql://192.168.100.37:3306/aurora?serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    #    url: jdbc:mysql://192.168.100.37:3306/aurora?serverTimezone=Asia/Shanghai&allowMultiQueries=true
     username: cclucky
     password: 1234
     hikari:
@@ -21,9 +21,9 @@ spring:
 
   redis:
     host: 114.132.162.245
-#    host: 192.168.100.37
+    #    host: 192.168.100.37
     port: 6379
-#    password: 密码
+    #    password: 密码
     database: 1
     lettuce:
       pool:
@@ -92,14 +92,14 @@ upload:
     accessKeySecret: d2XfbSAs5VM42rtRfSIsf23vBL4oOM
     bucketName: cclucky-blog
   minio:
-    url: https://114.132.162.245:9090/cclucky-blog/
-    endpoint: https://114.132.162.245:9090
-    accessKey: 0jFNL7vP6JQAK6hm
-    secretKey: 2i2hu9EuTp5npOpjCWTDCptaIWNCSTX1
-    #accessKey: cclucky
-#    secretKey: 65rtu75857
+    url: https://minio.cclucky.top/cclucky-blog/
+    endpoint: https://minio.cclucky.top
+#    accessKey: 0jFNL7vP6JQAK6hm
+#    secretKey: 2i2hu9EuTp5npOpjCWTDCptaIWNCSTX1
+    accessKey: minio
+    secretKey: minio@123
     bucketName: cclucky-blog
-    
+
 
 website:
   url: https://114.132.162.245/
